@@ -15,20 +15,20 @@ A skill is a markdown file with YAML frontmatter that agents load to gain narrow
 ### One-liner
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/USER/REPO/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/matldupont/educational-pr-description/main/install.sh | bash
 ```
 
 Install to Claude Code user skills instead:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/USER/REPO/main/install.sh | bash -s -- claude
+curl -fsSL https://raw.githubusercontent.com/matldupont/educational-pr-description/main/install.sh | bash -s -- claude
 ```
 
 Install project-local (commit to share with your team):
 
 ```bash
 cd your-project
-curl -fsSL https://raw.githubusercontent.com/USER/REPO/main/install.sh | bash -s -- project
+curl -fsSL https://raw.githubusercontent.com/matldupont/educational-pr-description/main/install.sh | bash -s -- project
 ```
 
 ### Manual

@@ -2,9 +2,9 @@
 # Install the educational-pr-description agent skill.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/USER/REPO/main/install.sh | bash
-#   curl -fsSL https://raw.githubusercontent.com/USER/REPO/main/install.sh | bash -s -- claude
-#   curl -fsSL https://raw.githubusercontent.com/USER/REPO/main/install.sh | bash -s -- project
+#   curl -fsSL https://raw.githubusercontent.com/matldupont/educational-pr-description/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/matldupont/educational-pr-description/main/install.sh | bash -s -- claude
+#   curl -fsSL https://raw.githubusercontent.com/matldupont/educational-pr-description/main/install.sh | bash -s -- project
 #
 # Targets:
 #   agents   (default) -> ~/.agents/skills/educational-pr-description/SKILL.md
@@ -14,7 +14,7 @@
 set -euo pipefail
 
 # Update this to the raw URL of SKILL.md in your published repo.
-SKILL_URL="${SKILL_URL:-https://raw.githubusercontent.com/USER/REPO/main/SKILL.md}"
+SKILL_URL="${SKILL_URL:-https://raw.githubusercontent.com/matldupont/educational-pr-description/main/SKILL.md}"
 
 TARGET="${1:-agents}"
 SKILL_NAME="educational-pr-description"
